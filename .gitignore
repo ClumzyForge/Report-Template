@@ -9,6 +9,9 @@
 *.cb
 *.cb2
 .*.lb
+*.log
+*.toc
+*.out
 
 # Intermediate files
 *.dvi
