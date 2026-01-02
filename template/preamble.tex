@@ -1,0 +1,48 @@
+\usepackage{graphicx}  % for including images
+\usepackage[table,xcdraw]{xcolor}
+\usepackage[dvipsnames]{xcolor}
+%\usepackage{microtype} % for typographical enhancements
+%\usepackage{minted}    % for code listings
+\usepackage{amsmath}   % for equations and mathematics
+%\setminted{style=friendly,fontsize=\small}
+%\renewcommand{\listoflistingscaption}{List of Code Listings}
+\usepackage{hyperref}  % for hyperlinks
+\usepackage[
+    a4paper,
+    top = 2cm,
+    bottom = 2cm,
+    left = 3.5cm,
+    right = 3.5cm
+]{geometry} % for setting page size and margins
+
+\usepackage{polski}           % Polskie znaki
+\usepackage[utf8]{inputenc}   % Kodowanie UTF8
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{14}\selectfont}
+\subsectionfont{\fontsize{12}{14}\selectfont}
+
+\usepackage{indentfirst}
+
+%\usepackage{minted}
+
+\usepackage{listings}
+
+\lstdefinestyle{vhdl}{
+    language=VHDL,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{Blue},                   % kolor słów kluczowych
+    commentstyle=\color{ForestGreen},            % komentarze
+    stringstyle=\color{Red},                     % ciągi znaków
+    numbers=left,
+    numberstyle=\tiny\color{Gray},
+    stepnumber=1,
+    numbersep=5pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    tabsize=4,
+    literate=
+      {std_logic}{{\textcolor{Green!70!Black}{std\_logic}}}7
+      {_vector}{{\textcolor{Green!70!Black}{\_vector}}}6
+}

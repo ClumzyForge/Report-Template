@@ -1,0 +1,51 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Intermediate files
+*.dvi
+*.xdv
+*-converted-to.*
+
+# Bibliography auxiliary files (bibtex/biblatex/biber)
+*.bib.bak
+
+# Outputs
+*.pdf
+*.ps
+*.eps
+
+# SyncTeX
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+
+# TikZ & PGF
+*.figlist
+*.makefile
+*.auxlock
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
